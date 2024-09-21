@@ -4,7 +4,7 @@ An image classification between cats and dogs written in C++ using OpenCV, Pytor
 
 ## Results
 
-![1](./assets/1.png)
-![2](./assets/1.png)
-![3](./assets/1.png)
-![4](./assets/1.png)
+![Alt text](assets/1.PNG)
+![Alt text](assets/2.PNG)
+![Alt text](assets/3.PNG)
+![Alt text](assets/4.PNG)
