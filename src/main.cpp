@@ -12,15 +12,15 @@ int main() {
 
         for(;;) {
             system("cls");
-            std::cout << "Bild: ";
+            std::cout << "Image: ";
             std::string path {};
             std::getline(std::cin, path);
 
             auto result { ir.makePrediction(path) };
             if(result.first == 0) {
-                std::cout << "Hund (" << result.second << "%)\n";
+                std::cout << "Dog (" << result.second << "%)\n";
             } else {
-                std::cout << "Katze (" << result.second << "%)\n";
+                std::cout << "Cat (" << result.second << "%)\n";
             }
             std::cin.get();
         }
